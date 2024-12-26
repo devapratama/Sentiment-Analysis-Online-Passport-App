@@ -96,28 +96,27 @@ The dataset consists of user reviews scraped from the Google Play Store using th
 
 <!--
 
-## Results and Insights
 
-1. **Sentiment Distribution**:
-   - Approximately 70% of reviews were negative, highlighting significant dissatisfaction among users.
-   - Positive reviews accounted for only 10%, indicating limited satisfaction with the application.
+Visualization
+Sentiment Distribution Bar Chart: A bar chart was created to visualize the distribution of sentiments from over 14,000 user reviews of the Indonesian Immigration Online Passport Application. The chart shows the count of reviews categorized as Neutral, Positive, and Negative, providing a clear overview of user sentiment distribution.
+Word Cloud: A word cloud was generated from the translated reviews to highlight the most frequently mentioned words, giving insight into common themes and issues discussed by users. Key terms like "application," "difficult," "time," "quota," "error," and "fix" were prominent, indicating user focus and pain points.
 
-2. **Key Pain Points**:
-   - Frequent app crashes and slow performance.
-   - Delays in receiving verification codes.
-   - Lack of responsive customer support.
+Results and Insights
+Sentiment Distribution: The analysis revealed that the majority of reviews (6,321) were Neutral, suggesting a significant portion of users had a lukewarm or indifferent experience. Negative sentiments were substantial with 4,966 reviews, while Positive reviews were the least common at 2,677. This indicates a need for addressing user dissatisfaction.
+Word Cloud Insights: The word cloud emphasized user frustrations with the application process, highlighting issues like difficulty in use, time-related complaints, technical errors, and quota restrictions. Positive aspects were also noted, with words like "easy" and "good" appearing, though less frequently.
 
-3. **Deep Learning Superiority**:
-   - The BERT-based model outperformed machine learning approaches with an accuracy of 98.33% and a macro F1-score of 0.9833, demonstrating its robustness in understanding context and semantics in user reviews.
+Conclusion and Recommendations
+Key Findings:
+The majority of user feedback on the application is neutral, with a significant portion expressing negative sentiments, pointing to areas needing improvement in user experience.
+Common themes in user feedback include complexity of the application process, long processing times, technical glitches, and quota limitations, with some acknowledgment of positive aspects.
 
+Recommendations:
+Simplify User Interface and Process: Enhance the application's user interface to make the process more intuitive and less complicated, reducing user frustration as highlighted by the word "difficult" in the word cloud.
+Improve Technical Stability: Address the technical issues like errors and bugs, as seen with words like "error" and "fix" in the word cloud, to ensure a smoother user experience.
+Optimize Processing Times: Focus on reducing wait times and speeding up the application process, which was a significant concern reflected by the prominence of "time" in the word cloud.
+Increase Quota Availability: Review and possibly increase the availability of quotas or provide clearer information on quota management, as "quota" was a notable concern in user reviews.
 
-## Visualization
-
-### Sentiment Distribution
-![Sentiment Distribution Chart](./images/sentiment_distribution.png)
-
-### Model Comparison
-![Model Performance](./images/model_comparison.png) -->
+These insights and recommendations are derived from the sentiment distribution and word cloud analysis, aiming to enhance user satisfaction with the Indonesian Immigration Online Passport Application. -->
 
 ---
 
@@ -151,5 +150,4 @@ The dataset consists of user reviews scraped from the Google Play Store using th
 
 ## References
 1. Google Play Scraper: [https://github.com/JoMingyu/google-play-scraper](https://github.com/JoMingyu/google-play-scraper)
-2. Hugging Face Transformers: [https://huggingface.co/transformers](https://huggingface.co/transformers)
-3. BERT Pre-trained Models: [https://github.com/google-research/bert](https://github.com/google-research/bert)
+2. BERT Pre-trained Models: [https://github.com/google-research/bert](https://github.com/google-research/bert)
