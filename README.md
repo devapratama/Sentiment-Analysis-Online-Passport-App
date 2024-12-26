@@ -94,60 +94,49 @@ The dataset consists of user reviews scraped from the Google Play Store using th
 | **Recall** (macro avg) | 0.95|
 | **F1-Score** (macro avg) | 0.95|
 
-<!--
+---
+
+## Visualization
+### Sentiment Distribution Bar Chart
+![sentiment_distribution](image/sentiment_distribution.png)
+
+A bar chart was created to visualize the distribution of sentiments from over 14,000 user reviews of the Indonesian Immigration Online Passport Application. The chart shows the count of reviews categorized as Neutral, Positive, and Negative, providing a clear overview of user sentiment distribution. The majority of reviews (6,321) were Neutral, suggesting a significant portion of users had a lukewarm or indifferent experience. Negative sentiments were substantial with 4,966 reviews, while Positive reviews were the least common at 2,677. This indicates a need for addressing user dissatisfaction.
 
 
-Visualization
-Sentiment Distribution Bar Chart: A bar chart was created to visualize the distribution of sentiments from over 14,000 user reviews of the Indonesian Immigration Online Passport Application. The chart shows the count of reviews categorized as Neutral, Positive, and Negative, providing a clear overview of user sentiment distribution.
-Word Cloud: A word cloud was generated from the translated reviews to highlight the most frequently mentioned words, giving insight into common themes and issues discussed by users. Key terms like "application," "difficult," "time," "quota," "error," and "fix" were prominent, indicating user focus and pain points.
+### Word Cloud
+![wordcloud](image/wordcloud.png)
 
-Results and Insights
-Sentiment Distribution: The analysis revealed that the majority of reviews (6,321) were Neutral, suggesting a significant portion of users had a lukewarm or indifferent experience. Negative sentiments were substantial with 4,966 reviews, while Positive reviews were the least common at 2,677. This indicates a need for addressing user dissatisfaction.
-Word Cloud Insights: The word cloud emphasized user frustrations with the application process, highlighting issues like difficulty in use, time-related complaints, technical errors, and quota restrictions. Positive aspects were also noted, with words like "easy" and "good" appearing, though less frequently.
-
-Conclusion and Recommendations
-Key Findings:
-The majority of user feedback on the application is neutral, with a significant portion expressing negative sentiments, pointing to areas needing improvement in user experience.
-Common themes in user feedback include complexity of the application process, long processing times, technical glitches, and quota limitations, with some acknowledgment of positive aspects.
-
-Recommendations:
-Simplify User Interface and Process: Enhance the application's user interface to make the process more intuitive and less complicated, reducing user frustration as highlighted by the word "difficult" in the word cloud.
-Improve Technical Stability: Address the technical issues like errors and bugs, as seen with words like "error" and "fix" in the word cloud, to ensure a smoother user experience.
-Optimize Processing Times: Focus on reducing wait times and speeding up the application process, which was a significant concern reflected by the prominence of "time" in the word cloud.
-Increase Quota Availability: Review and possibly increase the availability of quotas or provide clearer information on quota management, as "quota" was a notable concern in user reviews.
-
-These insights and recommendations are derived from the sentiment distribution and word cloud analysis, aiming to enhance user satisfaction with the Indonesian Immigration Online Passport Application. -->
+A word cloud was generated from the translated reviews to highlight the most frequently mentioned words. The word cloud emphasized user frustrations with the application process, highlighting issues like difficulty in use, time-related complaints, technical errors, and quota restrictions. Positive aspects were also noted, with words like "easy" and "good" appearing, though less frequently.
 
 ---
 
 ## Conclusion and Recommendations
 
 ### Key Findings:
-1. **Critical User Issues**: Negative sentiments dominate due to technical bugs and inadequate customer service.
-2. **Model Performance**: Deep learning (BERT) provides superior accuracy, making it a reliable choice for future sentiment analysis tasks.
+1. The majority of user feedback on the application is neutral, with a significant portion expressing negative sentiments, pointing to areas needing improvement in user experience.
+2. Common themes in user feedback include complexity of the application process, long processing times, technical glitches, and quota limitations, with some acknowledgment of positive aspects.
 
 ### Recommendations:
-1. Address critical user complaints by:
-   - Improving application stability and performance.
-   - Streamlining the verification process.
-   - Enhancing customer support response times.
-2. Regularly monitor user sentiment using the developed deep learning model to gauge improvements post-implementation.
+1. Simplify User Interface and Process: Enhance the application's user interface to make the process more intuitive and less complicated, reducing user frustration as highlighted by the word "difficult" in the word cloud.
+2. Improve Technical Stability: Address the technical issues like errors and bugs, as seen with words like "error" and "fix" in the word cloud, to ensure a smoother user experience.
+3. Optimize Processing Times: Focus on reducing wait times and speeding up the application process, which was a significant concern reflected by the prominence of "time" in the word cloud.
+4. Increase Quota Availability: Review and possibly increase the availability of quotas or provide clearer information on quota management, as "quota" was a notable concern in user reviews.
 
 ---
 
 ## Next Steps
 1. Incorporate additional external data sources (e.g., social media comments, app crash reports).
 2. Perform time-series analysis on sentiment trends to identify the impact of updates or changes to the application.
-3. Explore multi-lingual sentiment analysis to cater to non-Indonesian users.
 
 ---
 
 ## Tools and Skills Used
-- **Tools**: Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Hugging Face Transformers, PyTorch), Gensim, Google Play Scraper.
+- **Tools**: Python (Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Hugging Face Transformer, PyTorch), Gensim, Google Play Scraper.
 - **Skills**: Data scraping, text preprocessing, feature engineering, machine learning, deep learning, model evaluation, visualization.
 
 ---
 
 ## References
 1. Google Play Scraper: [https://github.com/JoMingyu/google-play-scraper](https://github.com/JoMingyu/google-play-scraper)
-2. BERT Pre-trained Models: [https://github.com/google-research/bert](https://github.com/google-research/bert)
+2. HUgging Face Transformer : [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
+3. BERT Pre-trained Models: [https://github.com/google-research/bert](https://github.com/google-research/bert)
